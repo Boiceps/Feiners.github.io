@@ -1,0 +1,89 @@
+<!doctype html>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FE!N</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
+	<script type="text/javascript" src="js/mobile.js"></script>
+	
+</head>
+<body>
+	
+	<div id="header">
+		<a href="index.html" class="logo">
+			<img src="images/feners-high-resolution-logo.jpeg" alt="feinous">
+		</a>
+		<ul id="navigation">
+			<li class="selected">
+				<a href="index.html">home</a>
+			</li>
+			<li>
+				<a href="about.html">about</a>
+			</li>
+			<li>
+				<a href="gallery.html">gallery</a>
+			</li>
+			<li>
+				<a href="blog.html"> covers</a>
+			</li>
+			<li>
+				<a href="contact.html">contact</a>
+			</li>
+		</ul>
+		<ul>
+		<input type="input" id="usrname" value="Please Write Your name" style="height: 60px;
+		overflow: auto;resize: none; font-size: 16px;">
+
+		<input type="submit" value="Click me!" style="background: #460864;
+		color: #fff;display: inline-block;font-size: 16px;margin: 15px 0 0;padding: 26px 27px 22px;text-align: center;text-decoration: none;
+		text-transform: uppercase;" onclick="displayGreeting()" /></center>
+		<hr>
+		<div id="outputDiv"></div>
+
+		<script>function displayGreeting() {
+			let usrname = document.getElementById('usrname').value;
+			document.getElementById('outputDiv').innerHTML = 'Hello ' + usrname + ', Welcome to FE!NERS' + '<br> ' + 'Be Prepared to never stop FE!NING!';
+		  }</script>
+
+		
+
+
+		<button onclick="myFunction()" style="margin-top: 12px; background: #460864;
+		color: #fff; display: inline-block;font-size: 16px;margin: 15px 0 0;padding: 26px 27px 22px;text-align: center;text-decoration: none;
+		text-transform: uppercase;">Changes That I Have Made to The Template</button>
+
+<script>
+function myFunction() {
+  alert(" There are quite a few changes that I have made to the website template. At first, it was a website about moustaches, and now I have made it into a website dedicated to FE!N by Travis scott. I added a script that reads the users name and says hello using javascript, and I also used javascript to make THIS pop-up. For HTML, all of the pictures, videos, spotify menu, etc in this site was added by me, and so are the texts. I also changed some of the site pages, such as 'gallery' or 'covers', which now redirects to different posters of my theme. For CSS, I changed the positioning and sizes of images, the color of buttons and fonts, such as the purple hover, and much more. I was able to make the website have a neat and organized look by using CSS.");
+}
+</script>
+	</div>
+	<div id="body">
+		<div id="featured">
+			<img src="images/15763 Large.jpeg" alt="travis fall">
+			<div>
+				<h2>They Are Feining For More</h2>
+				<span>Travis Scott's FE!N has hit the world by storm.</span>
+				<span>The song has garnered over 1 billion streams. </span>
+				<span>People are just feining for more!</span>
+				<a href="about.html" class="more">read more</a>
+			</div>
+			</div>
+		</div>
+		
+		<a href="gallery.html">
+			<img src="images/210709-1920x1080-desktop-full-hd-travis-scott-wallpaper-image.jpeg" alt="smoke" style="width: 200; display: block;">
+		</a>
+		
+		<iframe style="border: radius 12px; background-color: #252525; display: block;" src="https://open.spotify.com/embed/track/42VsgItocQwOQC3XWZ8JNA?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+		<div id="footer">
+			<div>
+				<p style="text-align: center;">&copy; Rafael Kimmi Chandra (23229590)</p>
+			</div>
+		</div>
+</body>
+</html>
